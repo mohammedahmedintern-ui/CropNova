@@ -73,7 +73,7 @@ function App() {
 
         <button className="farm-switch" onClick={() => navigate("Overview")}>
           <div className="farm-avatar">RF</div>
-          <div><b>Raman Farm</b><small>Tomato · 12.4 acres</small></div>
+          <div><b>hycros farms</b><small>Tomato · 12.4 acres</small></div>
           <ChevronDown size={15} />
         </button>
 
@@ -103,7 +103,7 @@ function App() {
             <button className="icon-btn" onClick={() => setAlertsOpen(!alertsOpen)} aria-label="Open alerts"><Bell size={19} /><i>2</i></button>
             <button className="profile" onClick={() => setProfileOpen(!profileOpen)}>
               <div className="profile-avatar">SK</div>
-              <div><b>Steve Kumar</b><small>Farm manager</small></div>
+              <div><b>Steve smith</b><small>Farm manager</small></div>
               <ChevronDown size={14} />
             </button>
           </div>
