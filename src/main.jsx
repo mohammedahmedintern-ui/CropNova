@@ -97,7 +97,7 @@ function App() {
       <main className="main">
         <header className="topbar">
           <button className="icon-btn mobile-menu" onClick={() => setMobileNav(!mobileNav)}><Menu size={21} /></button>
-          <div className="breadcrumb"><span>Raman Farm</span><ChevronRight size={14} /><b>{pageTitle}</b></div>
+          <div className="breadcrumb"><span>hycros Farm</span><ChevronRight size={14} /><b>{pageTitle}</b></div>
           <div className="top-actions">
             <div className="sync"><span className="pulse"></span> Live data</div>
             <button className="icon-btn" onClick={() => setAlertsOpen(!alertsOpen)} aria-label="Open alerts"><Bell size={19} /><i>2</i></button>
@@ -153,7 +153,7 @@ function NotificationPanel({ close, select }) {
 
 function ProfileMenu({ close, openSettings }) {
   return <div className="profile-menu">
-    <div className="profile-menu-head"><div className="profile-avatar large">SK</div><div><b>Steve Kumar</b><small>Farm manager</small></div></div>
+    <div className="profile-menu-head"><div className="profile-avatar large">SK</div><div><b>Steve smith</b><small>Farm manager</small></div></div>
     <div className="profile-stats"><div><b>12.4</b><span>acres</span></div><div><b>6</b><span>zones</span></div><div><b>92</b><span>health</span></div></div>
     <button onClick={openSettings}><Settings size={16} /> Profile & settings</button>
     <button onClick={close}><CircleHelp size={16} /> Help center</button>
